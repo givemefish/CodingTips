@@ -1,17 +1,11 @@
 # Coding Tips
 
-### Debugging
-  
- * console.group() & console.groupEnd() 可以在console pane中加入一段區間, 可將console.log的內容記錄在其中, 以便和其他log區分
- * console.groupCollapsed() 可以創建收合的區間
+## Debugging
+
+### Browser
+ * console.group("name") & console.groupEnd() 可以在console pane中加入一段區間, 將console.log的內容記錄在其中
+ * console.groupCollapsed("name") 和console.group("name")作用相似, 但它可以創建收合的區間
  * console.group() & console.groupCollapsed() 可為巢狀 [[參考連結](https://blog.mariusschulz.com/2014/11/25/advanced-javascript-logging-using-console-group) ]
- * console.table() 可列出陣列訊息, Chrome預設會在前面多加一段index 
- ```javascript
- var languages = [
-    { name: "JavaScript", fileExtension: ".js" },
-    { name: "TypeScript", fileExtension: ".ts" },
-    { name: "CoffeeScript", fileExtension: ".coffee" }
-];
-console.table(languages);
-```
- * console.table() 亦可傳入物件, 此時前面的index欄會變成物件的屬件
+ * console.table(array) 可列出陣列訊息, Chrome預設會在前面多加一段index  
+ * console.table(object) 亦可傳入物件, 此時前面的index欄會變成物件的屬件, 此時亦可指定欄位來顯示, 例如```console.table(languages, ["name", "paradigm"]);```[[參考連結](https://blog.mariusschulz.com/2013/11/13/advanced-javascript-debugging-with-consoletable)]
+ * console.time("name")和console.timeEnd("name")可以計算夾在中間的javascript花了多久的時間執行 [[參考連結](https://blog.mariusschulz.com/2013/11/22/measuring-execution-times-in-javascript-with-consoletime)] 
