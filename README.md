@@ -16,6 +16,7 @@
  * 在ASP.NET Web API中, 如果要看更詳細的錯誤訊息, 使用CustomerErrors沒有用, 必須指定```GlobalConfiguration.Configuration.IncludeErrorDetailPolicy 
     = errorDetailPolicy;```[[參考連結](http://lostechies.com/jimmybogard/2012/04/18/custom-errors-and-error-detail-policy-in-asp-net-web-api/)]
  * [HTTP API 设计指南](https://github.com/ZhangBohan/http-api-design-ZH_CN)
+ * [跟著Github學習Restful HTTP API設計](http://www.codeceo.com/article/learn-restful-http-api-design.html)
 
 ### ASP.NET MVC
  
