@@ -9,7 +9,7 @@
  * console.table(array) 可列出陣列訊息, Chrome預設會在前面多加一段index  
  * console.table(object) 亦可傳入物件, 此時前面的index欄會變成物件的屬件, 此時亦可指定欄位來顯示, 例如```console.table(languages, ["name", "paradigm"]);```[[參考連結](https://blog.mariusschulz.com/2013/11/13/advanced-javascript-debugging-with-consoletable)]
  * console.time("name")和console.timeEnd("name")可以計算夾在中間的javascript花了多久的時間執行 [[參考連結](https://blog.mariusschulz.com/2013/11/22/measuring-execution-times-in-javascript-with-consoletime)] 
- * 
+ 
  
 ### Web API
 
