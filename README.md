@@ -17,6 +17,7 @@
     = errorDetailPolicy;```[[參考連結](http://lostechies.com/jimmybogard/2012/04/18/custom-errors-and-error-detail-policy-in-asp-net-web-api/)]
  * [HTTP API 设计指南](https://github.com/ZhangBohan/http-api-design-ZH_CN)
  * [跟著Github學習Restful HTTP API設計](http://www.codeceo.com/article/learn-restful-http-api-design.html)
+ * [ASP.NET Core WebAPI版本設計 - 使用Swagger](https://dejanstojanovic.net/aspnet/2018/november/setting-up-swagger-to-support-versioned-api-endpoints-in-aspnet-core/?utm_source=csharpdigest&utm_medium=rss&utm_campaign=featured)
 
 ### ASP.NET MVC
  
