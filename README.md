@@ -22,6 +22,10 @@
 ### ASP.NET MVC
  
  * [擴展ASP.NET MVC](http://www.codeceo.com/article/8-tips-aspnet-mvc.html)
+ 
+ ### ASP.NET CORE
+ 
+ * [Health Check UI](https://marcus116.blogspot.com/2019/05/netcore-aspnet-core-health-check-ui.html)
 
 ### CSS
 
