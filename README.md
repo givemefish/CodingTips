@@ -26,6 +26,7 @@
  ### ASP.NET CORE
  
  * [Health Check UI](https://marcus116.blogspot.com/2019/05/netcore-aspnet-core-health-check-ui.html)
+ * [Tips and tricks for ASP.NET Core applications](https://dusted.codes/advanced-tips-and-tricks-for-aspnet-core-applications)
 
 ### CSS
 
